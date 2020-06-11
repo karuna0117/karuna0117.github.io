@@ -105,7 +105,7 @@ span.text{
     width:50px;
     height:30px;
     border-radius: 10%;
-    border: none;
+    border:none;
 }
 [value="City"]{
     width:150px;
@@ -117,7 +117,7 @@ span.text{
     margin-top:8px;
     background-color: #FF8480;
     width:200px;
-    height:20px;
-    border-radius:150px;
-    border: none;
+    height:25px;
+    border:none;
+    border-radius:10px;
 }
