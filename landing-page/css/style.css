@@ -20,14 +20,15 @@ header.logo img{
     font-family: Arial, Helvetica, sans-serif;
     
 }
-div.intro-text h4{
+.intro-text h4{
     width:270px;
     font-size: 20px;
     margin-bottom: 0;
     font-family: Montserrat;
+    font-weight: normal;
     
 }
-div.intro-image img{
+.intro-image img{
     width:290px;
     height:180px;
 }
@@ -52,6 +53,7 @@ div h2{
 div h3{
     margin-top: 1px;
     font-size: 15px;
+    font-weight: normal;
 }
 input.contact-form-input{
     background-color:#ececec;
@@ -61,6 +63,8 @@ input.contact-form-input{
     height:40px;
     font-size:15px;
     margin-bottom:10px;
+    font-weight: normal;
+    
 }
 [type="submit"]{
     height:50px;
@@ -120,4 +124,58 @@ span.text{
     height:25px;
     border:none;
     border-radius:10px;
+}
+button[type="cal"]{
+    color:#F7F7FF;
+}
+@media(min-width:35rem){
+    body{
+        background-color: rgb(206, 206, 223);
+    }
+    main{
+        padding-left:40px;
+    }
+   .intro-text h1{
+    width:360px;
+    margin-bottom:0px;
+    height:210px;
+   }
+   .intro-text h4{
+       width:500px;
+       position:absolute;
+   }
+   .intro-image img{
+       width:480px;
+       height:250px;
+       position:relative;
+       top:60px;
+       margin-bottom: 60px;
+       
+   }
+   section.html-form{
+       width:450px;
+       height: 500px;
+   }
+   div h2{
+        font-size: 40px;
+        width:500px;
+   }
+   div h3{
+       font-size: 35px;
+       width:600px;
+       font-weight: normal;
+   }
+   input.contact-form-input{
+       width:400px;
+   }
+   [type="checkbox"]{
+       height:25px;
+       width: 25px;
+   }
+   span.text{
+       font-size:23px;
+   }
+   [type="submit"]{
+       width:400px;
+   }
 }
