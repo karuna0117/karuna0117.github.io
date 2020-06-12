@@ -231,15 +231,28 @@ button[type="cal"]{
     section.html-form{
         margin-left:700px;
         position: relative;
-        top:25px;
-        height:380px;
+        top:30px;
+        height:360px;
         width:370px;
     }
     div h2{
-
+        font-size: 30px;
     }
     div h3{
-        
+        font-size: 25px;
+        margin-bottom: 0px;
+
+    }
+    input.contact-form-input{
+        width:300px;
+        height:30px;
+    }
+    [type="checkbox"]{
+        width:15px;
+    }
+    span.text{
+        font-size: 20px;
+        margin-top:5px;
     }
 
 }
