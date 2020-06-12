@@ -127,12 +127,13 @@ span.text{
 }
 button[type="cal"]{
     color:#F7F7FF;
+    font-weight: bold;
 }
 @media(min-width:35rem){
-    body{
-        background-color: rgb(206, 206, 223);
+    main{
+        margin: auto;
+        padding-left:80px;
     }
-    
    .intro-text h1{
     width:360px;
     margin-bottom:0px;
@@ -181,8 +182,33 @@ button[type="cal"]{
        margin-left:30px;
    }
    footer.footer{
-       width:440px;
-       margin-left:20px;
-       height:180px;
+       width:480px;
+       margin-left:10px;
+       height:150px;
+       padding-left:40px;
+       margin: auto;
    }
+   .footer-text h5{
+       width:400px;
+   }
+   .footer-text p{
+       width:500px;
+       margin-bottom: 1px;
+   }
+   [value="Hours"]{
+       width:70px;
+       margin-right:4px;
+   }
+   [value="City"]{
+       width:190px;
+   }
+   [type="cal"]{
+       width:150px;
+   }
+
+}
+@media (min-width:80rem){
+    body{
+        background-color: rgb(10, 112, 112);
+    }
 }
