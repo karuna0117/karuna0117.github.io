@@ -132,9 +132,7 @@ button[type="cal"]{
     body{
         background-color: rgb(206, 206, 223);
     }
-    main{
-        padding-left:40px;
-    }
+    
    .intro-text h1{
     width:360px;
     margin-bottom:0px;
@@ -177,5 +175,14 @@ button[type="cal"]{
    }
    [type="submit"]{
        width:400px;
+   }
+   div.contact-form-footer{
+       width: 400px;
+       margin-left:30px;
+   }
+   footer.footer{
+       width:440px;
+       margin-left:20px;
+       height:180px;
    }
 }
