@@ -208,9 +208,9 @@ button[type="cal"]{
    }
 
 }
-@media (min-width:70rem){
+@media (min-width:80rem){
     main{
-        height:580px;
+        height:560px;
         width:1050px;
     }
     .intro-image img{
@@ -229,10 +229,10 @@ button[type="cal"]{
         width:450px;
     }
     section.html-form{
-        margin-left:700px;
+        margin-left:750px;
         position: relative;
         top:30px;
-        height:360px;
+        height:380px;
         width:370px;
     }
     div h2{
@@ -251,8 +251,22 @@ button[type="cal"]{
         width:15px;
     }
     span.text{
-        font-size: 20px;
-        margin-top:5px;
+        font-size:10px;
+        padding:10px;
+        margin-top: 10px;
+    }
+    [type="submit"]{
+        width:300px;
+        height:40px;
+    }
+    .contact-form-footer{
+        font-size: 12px;
+    }
+    footer.footer{
+        width:1200px;
+    }
+    form.contact-form{
+        margin-left:10px;
     }
 
 }
