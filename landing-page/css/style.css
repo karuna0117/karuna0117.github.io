@@ -2,9 +2,10 @@ body{
     background-color:#F7F7FF;
 }
 main{
-    width:375px;
+    width:400px;
     height:1150px;
     padding-left:100px;
+    margin:auto;
 }
 header.logo img{
     width:105px;
@@ -131,8 +132,8 @@ button[type="cal"]{
 }
 @media(min-width:35rem){
     main{
-        margin: auto;
-        padding-left:80px;
+        padding-left:10px;
+        width:450px;
     }
    .intro-text h1{
     width:360px;
@@ -207,8 +208,22 @@ button[type="cal"]{
    }
 
 }
-@media (min-width:80rem){
+@media (min-width:70rem){
     body{
         background-color: rgb(10, 112, 112);
     }
+    main{
+        background-color: rgb(126, 133, 119);
+        height:600px;
+        width:1050px;
+    }
+    .intro-image img{
+    width:400px;
+    height:500px;      
+    
+    }
+    main:nth-child(2){
+        display: flex;
+    }
+
 }
