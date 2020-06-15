@@ -4,7 +4,7 @@ body{
 main{
     width:400px;
     height:1150px;
-    padding-left:100px;
+    padding-left:60px;
     margin:auto;
 }
 header.logo img{
@@ -83,10 +83,9 @@ span.red-txt{
 }
 footer.footer{
     background-color: #FFFD8C;
-    width:270px;
+    width:330px;
     height:260px;
-    padding-left:50px;
-    margin-left: 80px;
+    padding-left:60px;
 }
 .footer-text h5{
     font-size:18px;
@@ -107,13 +106,13 @@ span.text{
     font-size:20px;
 }
 [value="Hours"]{
-    width:50px;
+    width:70px;
     height:30px;
     border-radius: 10%;
     border:none;
 }
 [value="City"]{
-    width:150px;
+    width:180px;
     height:30px;
     border-radius: 10%;
     border:none;
@@ -121,8 +120,8 @@ span.text{
 [type="cal"]{
     margin-top:8px;
     background-color: #FF8480;
-    width:200px;
-    height:25px;
+    width:260px;
+    height:30px;
     border:none;
     border-radius:10px;
 }
