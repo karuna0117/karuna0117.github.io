@@ -117,7 +117,7 @@ span.text{
     border-radius: 10%;
     border:none;
 }
-[type="cal"]{
+[type="button"]{
     margin-top:8px;
     background-color: #FF8480;
     width:260px;
@@ -125,7 +125,7 @@ span.text{
     border:none;
     border-radius:10px;
 }
-button[type="cal"]{
+button[type="button"]{
     color:#F7F7FF;
     font-weight: bold;
 }
@@ -220,7 +220,7 @@ img.image-4{
    [value="City"]{
        width:190px;
    }
-   [type="cal"]{
+   [type="button"]{
        width:150px;
    }
    div.footer-icons{
