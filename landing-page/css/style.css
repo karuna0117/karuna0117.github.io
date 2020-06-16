@@ -225,21 +225,25 @@ img.image-4{
    }
    div.footer-icons{
        margin-top:13px;
-       margin-left: 90px;
+       margin-left: 150px;
    }
+   .footer-text,.footer-button{
+    margin-left: 50px;
+}
 
 }
 @media (min-width:80rem){
     main{
-        height:600px;
+        height:700px;
         width:1150px;
+    }
+    header.logo img{
+        margin-bottom:50px;
     }
     .intro-image img{
     width:600px;
     height:450px;
-    margin-bottom:40px;    
-
-    
+    margin-top:-45px;
     }
     main section:nth-child(2){
         display: flex;
@@ -249,11 +253,14 @@ img.image-4{
         width:450px;
     }
     section.html-form{
-        margin-left:750px;
+        margin-left:850px;
         position: relative;
         top:30px;
         height:380px;
         width:370px;
+    }
+    .footer-text,.footer-button{
+        margin-left: 100px;
     }
     div h2{
         font-size: 30px;
@@ -261,7 +268,6 @@ img.image-4{
     div h3{
         font-size: 25px;
         margin-bottom: 0px;
-
     }
     input.contact-form-input{
         width:300px;
@@ -288,8 +294,9 @@ img.image-4{
         margin-left:10px;
     }
     div.footer-icons{
-        margin-left: 900px;
+        margin-left: 1000px;
         margin-top:-30px;
     }
+
 
 }
