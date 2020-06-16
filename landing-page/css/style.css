@@ -129,6 +129,23 @@ button[type="cal"]{
     color:#F7F7FF;
     font-weight: bold;
 }
+div.footer-icons{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+img.image-1{
+    margin-right:25px;
+    border-radius: 14px;
+}
+img.image-2{
+    margin-right: 25px;
+}
+img.image-3{
+    margin-right: 25px;
+}
+img.image-4{
+    margin-right: 25px;
+}
 @media(min-width:35rem){
     main{
         padding-left:10px;
@@ -205,6 +222,10 @@ button[type="cal"]{
    [type="cal"]{
        width:150px;
    }
+   div.footer-icons{
+       margin-top:13px;
+       margin-left: 80px;
+   }
 
 }
 @media (min-width:80rem){
@@ -250,9 +271,7 @@ button[type="cal"]{
         width:15px;
     }
     span.text{
-        font-size:10px;
-        padding:10px;
-        margin-top: 10px;
+        font-size:20px;
     }
     [type="submit"]{
         width:300px;
@@ -266,6 +285,10 @@ button[type="cal"]{
     }
     form.contact-form{
         margin-left:10px;
+    }
+    div.footer-icons{
+        margin-left: 900px;
+        margin-top:-30px;
     }
 
 }
