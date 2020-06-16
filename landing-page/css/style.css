@@ -1,17 +1,21 @@
+/* This body tag is used for body background-color*/
 body{
     background-color:#F7F7FF;
 }
+/* This main tag covers the main part of the body*/
 main{
     width:400px;
     height:1150px;
     padding-left:60px;
     margin:auto;
 }
+/* This tag is to make header logo bigger and bold*/
 header.logo img{
     width:105px;
     height:100px;
     margin-bottom: 5px;
 }
+/* This tag is to design intro section*/
 .intro-text h1{
     font-size:65px;
     width:260px;
@@ -33,6 +37,7 @@ header.logo img{
     width:290px;
     height:180px;
 }
+/* This tag contains html form design*/
 section.html-form{
     width:270px;
     height:450px;
@@ -81,6 +86,7 @@ input.contact-form-input{
 span.red-txt{
     color:#FF8480;
 }
+/* These footer tags is used to design footer area*/
 footer.footer{
     background-color: #FFFD8C;
     width:330px;
@@ -146,7 +152,9 @@ img.image-3{
 img.image-4{
     margin-right: 25px;
 }
+
 @media(min-width:35rem){
+    /* I choose this to set width,height,margin and padding*/
     main{
         padding-left:10px;
         width:450px;
@@ -170,10 +178,10 @@ img.image-4{
    }
    section.html-form{
        width:450px;
-       height: 500px;
+       height:500px;
    }
    div h2{
-        font-size: 40px;
+        font-size:40px;
         width:500px;
    }
    div h3{
@@ -230,9 +238,10 @@ img.image-4{
    .footer-text,.footer-button{
     margin-left: 50px;
 }
-
 }
+
 @media (min-width:80rem){
+    /* These tag is to make content bigger by setting width */
     main{
         height:700px;
         width:1150px;
@@ -245,6 +254,7 @@ img.image-4{
     height:450px;
     margin-top:-45px;
     }
+    /* This tag is used to divide main into two sections */
     main section:nth-child(2){
         display: flex;
         position: absolute;
