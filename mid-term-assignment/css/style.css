@@ -1,0 +1,13 @@
+html{
+    scroll-behavior: smooth;
+    }
+    div img{
+        background-repeat: no-repeat;
+        margin:auto;
+        width:1000px;
+        height:750px;
+        margin-left: 500px;
+    
+     
+    
+    }
