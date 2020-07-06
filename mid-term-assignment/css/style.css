@@ -4,10 +4,48 @@ html{
     div img{
         background-repeat: no-repeat;
         margin:auto;
-        width:1000px;
-        height:750px;
+        width:1200px;
+        height:800px;
         margin-left: 500px;
-    
-     
-    
     }
+    .box{
+        position: relative;
+        display: inline-block;
+    }
+    .box .text{
+      position: absolute;
+      text-align: center;
+      width: 50%;
+      top:20%;
+      left:0;
+      right: 90%;
+      margin: 0 auto;
+      z-index: 900;
+    }
+    .text img{
+      width:600px;
+      height:400px;
+      margin-left:1px;
+      margin-bottom:100px;
+    }
+      header nav{
+        background-color:rgb(224, 65, 177);
+        position: fixed;
+        width:100%;
+        z-index:9;
+        top:0;
+        height:85px;
+        left: 0;
+        
+    }
+    nav ul{
+      display:flex;
+      flex-direction: row;
+      list-style: none;
+      justify-content: space-evenly;
+      width: 1000px;
+      font-size: 30px;
+      color: blanchedalmond;
+      font-family: lobster;
+    }
+    
