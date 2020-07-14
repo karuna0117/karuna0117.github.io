@@ -146,8 +146,8 @@ html{
   margin-bottom: 40px;
 }
 /* Comments to set the width of video section*/
-section video{
-  width:100%;
+.video iframe{
+  width:50%;
 }
 /* Comments to divide text and image section */
 .about-image img{
@@ -355,7 +355,7 @@ tr:nth-child(odd):hover{
     height: 250px;
   }
   /* Comments to set auto width of the video*/
-  section video{
+  div.video{
     width:100%;
     margin-left: 5px;
   }
