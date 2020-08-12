@@ -64,3 +64,10 @@ th,h4{
     flex-direction: row;
     margin-left: 100px;
   }
+  .icon img{
+    margin:10px;
+    padding:5px;
+    height:25px;
+    width:30px;
+  
+  }
