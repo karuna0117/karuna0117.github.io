@@ -59,3 +59,8 @@ form{
 th,h4{
     font-size: 25px;
 }
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
