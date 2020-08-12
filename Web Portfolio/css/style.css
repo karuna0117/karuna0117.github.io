@@ -59,15 +59,18 @@ form{
 th,h4{
     font-size: 25px;
 }
+p{
+    margin-top:20px ;
+}
 .social-icons{
     display: flex;
     flex-direction: row;
     margin-left: 100px;
   }
   .icon img{
-    margin:10px;
+      margin-top: 20px;
     padding:5px;
-    height:25px;
-    width:30px;
+    height:35px;
+    width:50px;
   
   }
