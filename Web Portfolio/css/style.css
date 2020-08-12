@@ -1,0 +1,61 @@
+footer{
+    background-color: rgb(195, 209, 206);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color:#36ccbf;
+}
+form{
+    padding:0.1rem;
+    max-width:550px;
+    margin:0 auto;
+    box-shadow: 3px 3px 3px 3px;
+    margin-right: 2px;
+  }
+  fieldset{
+    border:none;
+    opacity: 40%;
+    height:60px;
+    
+  }
+  fieldset label{
+    display:block;
+    font-weight:bold;
+    color: #841bca;
+    font-size:22px;
+    font-family:acme;
+    
+  }
+  fieldset input [type="text"],textarea{
+    width:380px;
+    height:40px;
+  }
+  fieldset input{
+    width:380px;
+    height:25px;
+  }
+  button{
+    height:45px;
+     width:150px;
+     font-family:fantasy;
+     font-size:20px;
+     border-radius: 20px;
+     background-color: #ca1b47;
+     margin-top: 65px;
+     margin-left:130px;
+  }
+  button:hover{
+    background-color: #F1E00E;
+}
+th,h4{
+    font-size: 25px;
+}
