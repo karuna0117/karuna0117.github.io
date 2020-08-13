@@ -100,3 +100,19 @@ div.row{
 .carousel-inner img{
   height:600px;
 }
+.card{
+margin-left: 400px;
+margin-top: 50px;
+}
+.card p{
+  font-weight: bold;
+  font-size: 20px;
+  }
+  .map{
+    height: 300px;
+  }
+  .progress{
+    width:50%;
+    height:100px;
+    margin-left: 380px;
+  }
