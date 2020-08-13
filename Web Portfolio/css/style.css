@@ -97,3 +97,6 @@ div.row{
 .jumbotron{
   background-color: rgb(241, 239, 92);
 }
+.carousel-inner img{
+  height:600px;
+}
