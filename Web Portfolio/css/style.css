@@ -36,11 +36,11 @@ form{
     
   }
   fieldset input [type="text"],textarea{
-    width:380px;
+    width:320px;
     height:40px;
   }
   fieldset input{
-    width:380px;
+    width:320px;
     height:25px;
   }
   button{
@@ -130,6 +130,10 @@ width:200px;
     margin-left: 60px;
     width:400px;
   }
+  div.container
+  div.col-sm{
+    margin-left: 1px;
+  }
   @media(min-width:45rem){
     div.card{
       margin-left:200px ;
@@ -141,6 +145,14 @@ width:200px;
     }
     div.card{
       margin-left: 400px;
+    }
+    fieldset input [type="text"],textarea{
+      width:380px;
+      height:40px;
+    }
+    fieldset input{
+      width:380px;
+      height:25px;
     }
 
   }
