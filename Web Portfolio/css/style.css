@@ -65,6 +65,7 @@ th,h4{
 p{
     margin-top:20px ;
 }
+/*  Flexy Social Icons */
 .social-icons{
     display: flex;
     flex-direction: row;
@@ -75,8 +76,8 @@ p{
     padding:5px;
     height:35px;
     width:50px;
-  
   }
+  /* Jumbotron Heading*/
 .jumbotron h1{
     text-align: center;
     font-size: 75px;
@@ -88,17 +89,19 @@ p{
     font-size: 20px;
     font-weight: bold;
 }
-
+/* Column Layout */
 .col-sm-4 img{
     width:75%;
     height:80%;
     transform:scale(0.5);
   transition:transform 1s;
 }
+/* Shrink property */
 .col-sm-4 img:hover{
   transform:scale(1);
 transition:transform 1s;
 }
+/* Container Margin*/
 div.row{
   margin-left: 100px;
   margin-top: 100px;
@@ -111,6 +114,7 @@ margin-left: 10px;
 margin-top: 50px;
 width:200px;
 }
+/* Card Width*/
 .card img{
   width:460px;
 }
@@ -118,23 +122,24 @@ width:200px;
   font-weight: bold;
   font-size: 20px;
   }
-  .card-text{
+.card-text{
     width: 450px;
   }
-  .map{
+.map{
     height: 300px;
   }
-  .progress{
+  /* Progress Bar Margin & Width*/
+.progress{
     width:50%;
     height:100px;
     margin-left: 380px;
   }
-  div.progress{
+div.progress{
     margin-left: 60px;
     width:400px;
   }
-  div.container
-  div.col-sm{
+div.container
+div.col-sm{
     margin-left: 1px;
   }
   @media(min-width:45rem){
@@ -143,12 +148,14 @@ width:200px;
     }
   }
   @media (min-width:80rem){
+    /* Slideshow Image */
     .carousel-inner img{
       height:600px;
     }
     div.card{
       margin-left: 400px;
     }
+    /* Input Textarea Height & Width */
     fieldset input [type="text"],textarea{
       width:380px;
       height:40px;
