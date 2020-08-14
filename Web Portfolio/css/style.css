@@ -103,16 +103,20 @@ div.row{
 .jumbotron{
   background-color: rgb(241, 239, 92);
 }
-.carousel-inner img{
-  height:600px;
-}
-.card{
-margin-left: 400px;
+div.card{
+margin-left: 10px;
 margin-top: 50px;
+width:200px;
+}
+.card img{
+  width:460px;
 }
 .card p{
   font-weight: bold;
   font-size: 20px;
+  }
+  .card-text{
+    width: 450px;
   }
   .map{
     height: 300px;
@@ -121,4 +125,22 @@ margin-top: 50px;
     width:50%;
     height:100px;
     margin-left: 380px;
+  }
+  @media(min-width:45rem){
+    div.card{
+      margin-left:200px ;
+    }
+  }
+  
+  @media (min-width:80rem){
+    body{
+      background-color: lawngreen;
+    }
+    .carousel-inner img{
+      height:600px;
+    }
+    div.card{
+      margin-left: 400px;
+    }
+
   }
