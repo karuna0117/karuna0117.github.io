@@ -127,14 +127,14 @@ width:200px;
     margin-left: 380px;
   }
   div.progress{
-    margin-left: 120px;
+    margin-left: 60px;
+    width:400px;
   }
   @media(min-width:45rem){
     div.card{
       margin-left:200px ;
     }
   }
-  
   @media (min-width:80rem){
     .carousel-inner img{
       height:600px;
