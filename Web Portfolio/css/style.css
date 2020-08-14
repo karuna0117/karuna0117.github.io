@@ -89,6 +89,12 @@ p{
 .col-sm-4 img{
     width:75%;
     height:80%;
+    transform:scale(0.5);
+  transition:transform 1s;
+}
+.col-sm-4 img:hover{
+  transform:scale(1);
+transition:transform 1s;
 }
 div.row{
   margin-left: 100px;
