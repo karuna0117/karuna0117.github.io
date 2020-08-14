@@ -126,6 +126,9 @@ width:200px;
     height:100px;
     margin-left: 380px;
   }
+  div.progress{
+    margin-left: 120px;
+  }
   @media(min-width:45rem){
     div.card{
       margin-left:200px ;
@@ -133,9 +136,6 @@ width:200px;
   }
   
   @media (min-width:80rem){
-    body{
-      background-color: lawngreen;
-    }
     .carousel-inner img{
       height:600px;
     }
