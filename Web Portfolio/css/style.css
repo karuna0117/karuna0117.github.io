@@ -1,6 +1,8 @@
+/*Footer background Colour */
 footer{
     background-color: rgb(195, 209, 206);
 }
+/*Footer Table*/
 table {
     border-collapse: collapse;
     width: 100%;
@@ -14,6 +16,7 @@ table {
   
   tr:hover {background-color:#36ccbf;
 }
+/* Contact form padding margin */
 form{
     padding:0.1rem;
     max-width:550px;
@@ -33,7 +36,6 @@ form{
     color: #841bca;
     font-size:22px;
     font-family:acme;
-    
   }
   fieldset input [type="text"],textarea{
     width:320px;
@@ -43,6 +45,7 @@ form{
     width:320px;
     height:25px;
   }
+  /* Button Settings*/
   button{
     height:45px;
      width:150px;
